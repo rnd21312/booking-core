@@ -1,0 +1,33 @@
+/* Design tokens — values extracted from ui/ (Tailwind arbitrary colors + index.css).
+   Components must use these (via Tailwind theme utilities or var()) — never raw hex. */
+:root {
+  --stz-forest: #0e2a23;
+  --stz-forest-deep: #0a1f1a;
+  --stz-forest-soft: #153d33;
+  --stz-gold: #d4af37;
+  --stz-gold-dark: #c49f2e;
+  --stz-sand: #e8e2d9;
+  --stz-sand-soft: #f3efea;
+  --stz-cream: #faf8f5;
+  --stz-ink: #1a1c1b;
+  --stz-muted: #656e68;
+  --stz-muted-soft: #8a928c;
+  --stz-mist: #cbd4cf;
+  --stz-forest-night: #0a1d18;
+  --stz-blush: #f5eadb;
+  --stz-clay: #8f3e2f;
+  --stz-whatsapp: #25d366;
+  --stz-telegram: #229ed9;
+
+  --stz-font-sans: 'Outfit Variable', 'Outfit', system-ui, -apple-system, 'Segoe UI', Roboto,
+    sans-serif;
+
+  --stz-radius-sm: 0.5rem;
+  --stz-radius-md: 0.75rem;
+  --stz-radius-lg: 1rem;
+  --stz-radius-xl: 1.5rem;
+
+  /* Motion */
+  --stz-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --stz-ease-soft: cubic-bezier(0.4, 0, 0.2, 1);
+}

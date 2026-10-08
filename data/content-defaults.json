@@ -1,0 +1,192 @@
+{
+  "brand": {
+    "badge": "Thailand",
+    "tagline": "Boutique Travel Operator",
+    "footer_pitch": "Experience the magic of Thailand with Suntourz. We provide curated tours, seamless transfers, and unforgettable travel experiences tailored just for you. Book your dream vacation today with confidence.",
+    "license_title": "Authorized Thailand Tour Operator",
+    "license_note": "Tourism Authority of Thailand (TAT) License: 11/09842. Member of the Association of Thai Travel Agents (ATTA).",
+    "top_bar_label": "Thailand Direct Concierge",
+    "logo_image": "",
+    "logo_image_white": "",
+    "favicon_image": "",
+    "copyright": ""
+  },
+  "seo": {
+    "home_title": "",
+    "home_description": "",
+    "tours_title": "",
+    "tours_description": "",
+    "blog_title": "",
+    "blog_description": "",
+    "default_image": ""
+  },
+  "design": {
+    "color_primary": "#0e2a23",
+    "color_accent": "#d4af37",
+    "color_background": "#faf8f5"
+  },
+  "sections": [
+    { "id": "featured", "enabled": true },
+    { "id": "destinations", "enabled": true },
+    { "id": "why", "enabled": true },
+    { "id": "experiences", "enabled": true },
+    { "id": "finder", "enabled": true },
+    { "id": "guide", "enabled": true },
+    { "id": "reviews", "enabled": true },
+    { "id": "gallery", "enabled": true },
+    { "id": "final_cta", "enabled": true }
+  ],
+  "tours_page": {
+    "eyebrow": "Tour Collection",
+    "title": "Thailand Tours",
+    "subtitle": "Small-group and private journeys with clear dates and prices.",
+    "banner_image": ""
+  },
+  "hero": {
+    "eyebrow": "Thailand Travel Specialists",
+    "title": "Discover Thailand,",
+    "title_accent": "Your Way.",
+    "subtitle": "Curated journeys, exceptional stays and unforgettable experiences across Thailand.",
+    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=2400&q=90",
+    "image_alt": "Breathtaking turquoise Andaman sea and limestone karst cliffs in Thailand",
+    "cues": ["Private Transfers & Charters", "Handpicked 5-Star Sanctuaries", "Dedicated 24/7 Concierge"]
+  },
+  "featured": {
+    "eyebrow": "Curated Itineraries",
+    "title": "Featured Thailand Tours",
+    "subtitle": "Handpicked journeys designed to help you experience the best of Thailand."
+  },
+  "destinations": {
+    "eyebrow": "Regions & Landscapes",
+    "title": "Iconic Thailand Destinations",
+    "subtitle": "From the limestone sanctuaries of the Andaman Sea to the royal heritage of Bangkok and the tranquil palm bays of the Gulf."
+  },
+  "why": {
+    "eyebrow": "The Boutique Difference",
+    "title": "Why Travel With Suntourz?",
+    "subtitle": "We are not a volume booking engine or traditional package tour operator. We are a specialized boutique travel house dedicated to extraordinary Thailand journeys.",
+    "pillars": [
+      { "icon": "compass", "title": "Thailand Specialists", "description": "Deep destination knowledge and carefully selected experiences focused solely on Thailand’s extraordinary regions." },
+      { "icon": "sparkles", "title": "Curated Stays", "description": "Hotels, pool villas, and boutique resorts chosen rigorously for quality, architectural character, and beachfront location." },
+      { "icon": "sliders", "title": "Tailored Journeys", "description": "Travel plans meticulously designed around how you want to experience Thailand, from slow barefoot luxury to high-energy island exploration." },
+      { "icon": "map-pin", "title": "Local Expertise", "description": "Practical, on-the-ground knowledge from resident curators that helps you travel with quiet confidence and zero tourist friction." },
+      { "icon": "headphones", "title": "Personal Support", "description": "Dedicated 24/7 concierge assistance before, during, and after your trip. A single direct message coordinates any request." },
+      { "icon": "shield", "title": "Transparent Planning", "description": "Clear, all-inclusive tour details with zero hidden fees, comprehensive inclusions, and honest pricing transparency." }
+    ]
+  },
+  "experiences": {
+    "eyebrow": "Ways to Travel",
+    "title": "Experience Thailand",
+    "subtitle": "Immerse yourself in carefully designed travel styles tailored to your individual rhythm."
+  },
+  "finder": {
+    "eyebrow": "Tour Collection",
+    "title": "Find Your Perfect Thailand Journey",
+    "subtitle": "Filter by destination, travel style, month, duration and budget."
+  },
+  "guide": {
+    "eyebrow": "Editorial Journal",
+    "title": "Thailand Travel Guide",
+    "subtitle": "Practical wisdom, seasonal nuances, and luxury travel insights curated by our Thailand specialists.",
+    "badge": "Curated Editions",
+    "banner_image": ""
+  },
+  "reviews": {
+    "eyebrow": "Verified Feedback",
+    "title": "Loved by Travelers",
+    "subtitle": "Genuine experiences from international guests who entrusted their Thailand journeys to Suntourz.",
+    "stats": [
+      { "value": "4.98 / 5.0", "label": "Average Guest Rating" },
+      { "value": "1,400+", "label": "Bespoke Journeys Organized" },
+      { "value": "100%", "label": "Thailand Tailored Guarantee" }
+    ],
+    "fallback": [
+      { "id": "t1", "name": "Eleanor & James Montgomery", "country": "London, United Kingdom", "tour": "Phuket & Phi Phi Escape", "destination": "Phuket & Phi Phi Islands", "rating": 5, "review": "Everything was beautifully organized. The hotels, private transfers and sunrise long-tail boat to Maya Bay were exactly what we needed. Having our dedicated concierge on WhatsApp removed every ounce of travel friction.", "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80", "date": "February 2026" },
+      { "id": "t2", "name": "Dr. Julian & Sarah Weiss", "country": "Munich, Germany", "tour": "Grand Thailand Tri-Center", "destination": "Bangkok, Phuket & Phi Phi", "rating": 5, "review": "Suntourz operates on a completely different level than standard agencies. The private river cruise at dusk past Wat Arun and the cliffside villa in Trisara were pure magic. Truly boutique, deeply knowledgeable.", "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80", "date": "January 2026" },
+      { "id": "t3", "name": "Charlotte Dubois", "country": "Paris, France", "tour": "Krabi Island Adventure", "destination": "Krabi & Koh Hong Archipelagos", "rating": 5, "review": "Dinner in The Grotto cave at Rayavadee, followed by an early morning kayak through Koh Hong before any tourists arrived, was one of the most sublime moments of my life. Flawless curation from start to finish.", "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80", "date": "March 2026" },
+      { "id": "t4", "name": "Michael Chen & David Ross", "country": "Sydney, Australia", "tour": "Koh Samui Sanctuary", "destination": "Koh Samui & Ang Thong", "rating": 5, "review": "The private catamaran through Ang Thong Marine Park was the highlight of our year. Suntourz provided an experienced marine guide, chilled champagne, and a secluded cove all to ourselves. Remarkable service.", "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80", "date": "December 2025" }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Visual Gallery",
+    "title": "See Thailand Through Our Eyes",
+    "subtitle": "A visual anthology of secret beaches, aromatic night markets, quiet gilded temples, and Andaman horizons.",
+    "footnote": "Captured across 12 provinces",
+    "items": [
+      { "title": "Secret Sands of Kata Noi", "category": "Tropical Beaches", "location": "Phuket", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=85" },
+      { "title": "Dawn Over Maya Bay", "category": "Long-Tail Boats", "location": "Phi Phi Leh", "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1000&q=85" },
+      { "title": "Historic Yaowarat at Twilight", "category": "Bangkok Streets", "location": "Bangkok Chinatown", "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1000&q=85" },
+      { "title": "Royal Tom Yum Goong & Herbs", "category": "Thai Food", "location": "Culinary Masterclass", "image": "https://images.unsplash.com/photo-1559314809-0d155014e29e?auto=format&fit=crop&w=1000&q=85" },
+      { "title": "Overwater Clifftop Villa Pavilion", "category": "Luxury Resorts", "location": "Trisara Phuket", "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=85" },
+      { "title": "Emerald Waters of Koh Hong", "category": "Islands", "location": "Krabi Archipelago", "image": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=1000&q=85" },
+      { "title": "Wat Arun Gilded Sunset Stupas", "category": "Temples", "location": "Chao Phraya Riverside", "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1000&q=85" },
+      { "title": "Sizzling Woks & Lantern Stalls", "category": "Night Markets", "location": "Chiang Mai Night Bazaar", "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=85" },
+      { "title": "Golden Hour Catamaran Drift", "category": "Sunset Experiences", "location": "Phang Nga Bay", "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1000&q=85" }
+    ]
+  },
+  "final_cta": {
+    "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=2400&q=90",
+    "image_alt": "Golden tropical sunset over Thailand limestone sea karst",
+    "eyebrow": "Tailored By Specialists",
+    "title": "Your Thailand Story",
+    "title_accent": "Starts Here.",
+    "subtitle": "Tell us how you want to travel, and we'll help you build the perfect journey.",
+    "cues": ["Direct WhatsApp Concierge", "No Obligation Itinerary Design", "Response Within 12 Hours"]
+  },
+  "planner": {
+    "title": "Plan Your Bespoke Thailand Journey",
+    "eyebrow": "Concierge Trip Designer",
+    "subtitle": "Handcrafted by resident Thailand specialists",
+    "destinations": ["All Thailand Highlights", "Phuket & Andaman Coast", "Bangkok & Cultural River", "Krabi & Limestone Karsts", "Phi Phi & Emerald Lagoons", "Koh Samui & Gulf Islands", "Pattaya & Royal Coast", "Multi-Center (Bangkok + Islands)"],
+    "styles": ["Boutique & Barefoot Luxury", "Island Hopping & Yachting", "Cultural Discovery & Heritage", "Romantic Honeymoon / Anniversary", "Active Adventure & Rainforest"],
+    "seasons": ["November to April (Prime Sunshine)", "December – January (Festive Holidays)", "May to October (Lush Emerald Season)", "Specific Month / Dates to specify in notes"],
+    "durations": ["5 – 7 Days (Island Getaway)", "7 – 10 Days (Recommended)", "10 – 14 Days (Comprehensive)", "15+ Days (Grand Explorer)"],
+    "travelers": ["2 Adults (Couple)", "1 Solo Traveler", "Family with Children (3 – 4)", "Private Group (5+)"],
+    "hotels": ["5-Star Oceanfront Private Pool Villas", "Boutique Luxury Beachfront Resorts", "Heritage Riverside Suites & Island Pavilions", "Ultra-Luxury (Amanpuri / Rosewood / Capella)"],
+    "budgets": ["Up to $3,000 per guest", "$3,000 – $5,000 per guest", "$5,000 – $8,000 per guest", "$8,000+ per guest", "Not sure yet"],
+    "interests": ["Private Island Charters", "Culinary & Thai Gastronomy", "Wellness & Holistic Spas", "Ethical Elephant Sanctuaries", "Sunset Long-tail Boats", "Skyline Rooftop Dining", "Scuba Diving & Coral Snorkel", "Private Temple Blessings"]
+  },
+  "support": {
+    "address": "88 Wireless Road, Lumphini, Pathum Wan, Bangkok 10330, Thailand.",
+    "address_title": "Bangkok Operations Center",
+    "license_line": "TAT Travel License: 11/09842 (ATTA Certified).",
+    "hours": "Daily Concierge Desk: 08:00 – 22:00 ICT (Local Thailand Time)",
+    "promise_title": "Customer Support Promise",
+    "promise": "Experience the magic of Thailand with Suntourz. We provide curated tours, seamless transfers, and unforgettable travel experiences tailored just for you. Book your dream vacation today with confidence.",
+    "guarantee": "24/7 In-Country Guest Protection & Emergency Hotline",
+    "faqs": [
+      { "q": "Will I receive the exact curated experiences and hotels shown on Suntourz?", "a": "Yes, absolutely. All our boutique itineraries, verified 5-star private pool villas, speedboat charters, and private longtail expeditions are reserved and contracted directly by our on-ground team. If any specific boutique room category is sold out on your dates, our concierge consults with you to provide an equal or superior upgrade before confirming." },
+      { "q": "Where can I view my booking confirmation, vouchers, and itinerary receipts?", "a": "Once your trip is confirmed, you receive a digital confirmation voucher and receipt by email. Keep your booking code handy and contact us any time if you need a copy." },
+      { "q": "How can I reschedule or adjust our travel dates?", "a": "We know travel plans can evolve. Customers may reschedule their private tour free of charge if notice is given at least 48 hours before the tour departure date, subject to availability." },
+      { "q": "What happens if a sea excursion is affected by adverse weather?", "a": "The safety of our travelers is our highest priority. If a marine tour or flight is cancelled due to adverse weather or maritime safety notices, Suntourz guarantees a full rescheduling to an alternative date at no charge, or a 100% full refund to your original payment method." },
+      { "q": "How do airport and inter-island private transfers work?", "a": "Your private chauffeur meets you directly at the airport arrivals terminal with a personalized Suntourz name board, assists with luggage, and provides direct door-to-door luxury transport in air-conditioned VIP vehicles or private boats." }
+    ],
+    "policy": {
+      "title": "Official Suntourz Refund & Cancellation Policy",
+      "effective": "Effective: June 2026",
+      "intro": "We understand that travel plans can change. The following terms apply to all bookings made through Suntourz:",
+      "rows": [
+        { "notice": "More than 7 days", "refund": "100% Full Refund", "reschedule": "Free of charge", "tone": "good" },
+        { "notice": "3 – 7 days", "refund": "50% Refund", "reschedule": "Free of charge", "tone": "warn" },
+        { "notice": "24 – 72 hours", "refund": "25% Refund", "reschedule": "Subject to availability", "tone": "alert" },
+        { "notice": "Less than 24 hours / No-show", "refund": "No refund", "reschedule": "Fee applies", "tone": "bad" }
+      ],
+      "weather_title": "Weather & Force Majeure Guarantee",
+      "weather": "If an experience or sea crossing is cancelled by Suntourz due to adverse weather or safety advisories, you are immediately offered a 100% refund to the original payment method or free rescheduling to an alternative date.",
+      "how_to_title": "How to request cancellation or refund:",
+      "how_to_note": "Please include your booking reference code, full name, and tour date."
+    },
+    "about": {
+      "title": "About SunTourz",
+      "paragraphs": [
+        "Suntourz is a specialized Thailand luxury tour operator committed to delivering bespoke travel journeys, verified private pool villas, private speedboat charters, and cultural explorations across the kingdom.",
+        "From the heritage canals and rooftop fine dining of Bangkok, to the dramatic limestone sea arches of Krabi, Phuket, and the tranquil highlands of Chiang Mai, every detail is handled by our local concierge."
+      ],
+      "badges": [
+        { "title": "100% Bonded", "text": "Financial protection & TAT certified" },
+        { "title": "Private Charters", "text": "Sunrise crowd-free island access" },
+        { "title": "Dedicated Host", "text": "24/7 personal WhatsApp concierge" }
+      ]
+    }
+  }
+}
