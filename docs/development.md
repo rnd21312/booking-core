@@ -31,8 +31,8 @@ Download PHPUnit 10/11 from https://phpunit.de if you do not have it.
 
 ```bash
 npx @wp-playground/cli@latest server \
-  --mount-dir ./suntourz-core  /wordpress/wp-content/plugins/suntourz-core \
-  --mount-dir ./suntourz-theme /wordpress/wp-content/themes/suntourz-theme
+  --mount-dir ./booking-core  /wordpress/wp-content/plugins/booking-core \
+  --mount-dir ./react-theme /wordpress/wp-content/themes/react-theme
 ```
 
 (Build both front ends first. On Windows use PowerShell/cmd and `--mount-dir`.) Playground uses SQLite, so for real concurrency / `SELECT … FOR UPDATE` tests of the seat lock use a MySQL-backed site.
@@ -48,7 +48,7 @@ npx @wp-playground/cli@latest server \
 
 1. Bump the version in `suntourz-core.php` (header + `STZ_CORE_VERSION`) and `CHANGELOG.md`.
 2. `git tag v0.1.1 && git push --tags`.
-3. The **Release zip** workflow builds the admin bundle and attaches `suntourz-core.zip` to the release.
+3. The **Release zip** workflow builds the admin bundle and attaches `booking-core.zip` to the release.
 
 ## Contributing
 

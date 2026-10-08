@@ -21,10 +21,10 @@ jobs:
           npm run build
       - name: Package
         run: |
-          mkdir -p /tmp/pkg/suntourz-core
-          rsync -a --exclude='.git' --exclude='.github' --exclude='frontend' --exclude='docs' --exclude='tests' --exclude='phpunit.xml.dist' --exclude='*.map' ./ /tmp/pkg/suntourz-core/
-          (cd /tmp/pkg && zip -qr $GITHUB_WORKSPACE/suntourz-core.zip suntourz-core)
+          mkdir -p /tmp/pkg/booking-core
+          rsync -a --exclude='.git' --exclude='.github' --exclude='frontend' --exclude='docs' --exclude='tests' --exclude='phpunit.xml.dist' --exclude='*.map' ./ /tmp/pkg/booking-core/
+          (cd /tmp/pkg && zip -qr $GITHUB_WORKSPACE/booking-core.zip booking-core)
       - name: Publish release asset
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release create "$GITHUB_REF_NAME" suntourz-core.zip --title "$GITHUB_REF_NAME" --generate-notes || gh release upload "$GITHUB_REF_NAME" suntourz-core.zip --clobber
+        run: gh release create "$GITHUB_REF_NAME" booking-core.zip --title "$GITHUB_REF_NAME" --generate-notes || gh release upload "$GITHUB_REF_NAME" booking-core.zip --clobber

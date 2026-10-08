@@ -2,20 +2,20 @@
 
 > The engine behind the Suntourz suite: tours, departures, seat-aware bookings, trip requests, reviews, a public REST API and clean admin screens for WordPress.
 
-[![CI](https://github.com/rnd21312/suntourz-core/actions/workflows/ci.yml/badge.svg)](https://github.com/rnd21312/suntourz-core/actions/workflows/ci.yml)
+[![CI](https://github.com/rnd21312/booking-core/actions/workflows/ci.yml/badge.svg)](https://github.com/rnd21312/booking-core/actions/workflows/ci.yml)
 [![License: GPL v2+](https://img.shields.io/badge/license-GPL--2.0--or--later-blue.svg)](LICENSE)
 ![WordPress 6.5+](https://img.shields.io/badge/WordPress-6.5%2B-21759b)
 ![PHP 8.1+](https://img.shields.io/badge/PHP-8.1%2B-777bb4)
 
 ![Suntourz Core — bookings screen](docs/images/preview.png)
 
-Suntourz Core turns WordPress into a small tour-operator back office. Staff manage tours and bookings from fast React admin screens; the [Suntourz theme](https://github.com/rnd21312/suntourz-theme) (or any headless client) consumes the public REST API.
+Suntourz Core turns WordPress into a small tour-operator back office. Staff manage tours and bookings from fast React admin screens; the [Suntourz theme](https://github.com/rnd21312/react-theme) (or any headless client) consumes the public REST API.
 
 | Project | Role |
 | --- | --- |
-| [suntourz-theme](https://github.com/rnd21312/suntourz-theme) | Public website design (requires this plugin) |
-| **suntourz-core** (this repo) | Tours, departures, bookings, REST API, admin screens |
-| [suntourz-visual-editor](https://github.com/rnd21312/suntourz-visual-editor) | Click-to-edit visual editor, works with any theme (optional) |
+| [react-theme](https://github.com/rnd21312/react-theme) | Public website design (requires this plugin) |
+| **booking-core** (this repo) | Tours, departures, bookings, REST API, admin screens |
+| [visual-editor](https://github.com/rnd21312/visual-editor) | Click-to-edit visual editor, works with any theme (optional) |
 
 ## Features
 
@@ -41,10 +41,10 @@ Suntourz Core turns WordPress into a small tour-operator back office. Staff mana
 
 ## Install
 
-1. Download `suntourz-core.zip` from the [latest release](https://github.com/rnd21312/suntourz-core/releases/latest).
+1. Download `booking-core.zip` from the [latest release](https://github.com/rnd21312/booking-core/releases/latest).
 2. **Plugins → Add New → Upload Plugin** → choose the zip → **Install Now** → **Activate**.
 3. Open **Suntourz → Settings → Demo data → Import demo tours** (optional).
-4. Install the [Suntourz theme](https://github.com/rnd21312/suntourz-theme) for the public site.
+4. Install the [Suntourz theme](https://github.com/rnd21312/react-theme) for the public site.
 
 See [docs/installation.md](docs/installation.md).
 

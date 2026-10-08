@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Suntourz Core
- * Plugin URI:        https://github.com/rnd21312/suntourz-core
+ * Plugin URI:        https://github.com/rnd21312/booking-core
  * Description:       Tours, departures, booking requests, REST API and admin screens for the Suntourz theme.
  * Version:           0.1.0
  * Requires at least: 6.5

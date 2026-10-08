@@ -11,21 +11,21 @@
 
 ## From the release zip
 
-1. Download `suntourz-core.zip` from the [releases page](https://github.com/rnd21312/suntourz-core/releases).
+1. Download `booking-core.zip` from the [releases page](https://github.com/rnd21312/booking-core/releases).
 2. **Plugins → Add New → Upload Plugin** → select the zip → **Install Now** → **Activate**.
 3. Activation creates the database tables (`stz_departures`, `stz_bookings`, `stz_booking_log`), the *Booking manager* role and the capabilities for administrators.
-4. Install the [Suntourz theme](https://github.com/rnd21312/suntourz-theme) to get the public website.
+4. Install the [Suntourz theme](https://github.com/rnd21312/react-theme) to get the public website.
 
 ## From source
 
 ```bash
-git clone https://github.com/rnd21312/suntourz-core.git
-cd suntourz-core/frontend
+git clone https://github.com/rnd21312/booking-core.git
+cd booking-core/frontend
 npm ci
 npm run build          # writes ../dist
 ```
 
-Copy the `suntourz-core` folder (with `dist/`) into `wp-content/plugins/` and activate it. Without `dist/`, admin screens show an *assets are missing* notice.
+Copy the `booking-core` folder (with `dist/`) into `wp-content/plugins/` and activate it. Without `dist/`, admin screens show an *assets are missing* notice.
 
 ## Demo data
 
